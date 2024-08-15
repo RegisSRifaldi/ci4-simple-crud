@@ -8,6 +8,7 @@ class CarsModel extends Model
 {
     protected $table = "cars";
     protected $useTimestamps = true;
+    protected $allowedFields = ['car', 'slug', 'type', 'price', 'picture'];
 
     public function getCars($slug = false)
     {
