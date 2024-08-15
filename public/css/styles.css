@@ -1,0 +1,7 @@
+.cover {
+  width: 300px;
+}
+
+.table > tbody > tr > * {
+  vertical-align: middle;
+}
